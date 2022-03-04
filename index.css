@@ -1,0 +1,9 @@
+@media only screen and (max-width: 560px) {
+    main div > article > p {
+        font-size: medium;
+    }
+
+    main {
+        background-color: darkcyan;
+    }
+}

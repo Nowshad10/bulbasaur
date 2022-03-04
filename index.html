@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-success navbar-expand-md sticky-top">
+            <a href="#" class="navbar-brand mx-4">BULBASAUR</a>
+            <button type="button" class="navbar-toggler mx-3" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-4" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="index.html">Homepage</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="bulb.html">Bulbasaur</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="ivy.html">Ivysaur</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="venus.html">Venusaur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item nav-link dropdown-toggle flex-end" data-toggle="dropdown" href="#">More Info</a>
+                        <div class="dropdown-menu">
+                            <a href="https://en.wikipedia.org/wiki/Bulbasaur" target="_blank" class="dropdown-item">Wikipedia</a>
+                            <a href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)" target="_blank" class="dropdown-item">Pokemon Wiki</a>
+                            <a href="https://www.facebook.com/groups/2123821904341209/about/" target="_blank" class="dropdown-item">Fan Club</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="p-5 text-center bg-image" style="background-image: url('https://images.hdqwalls.com/wallpapers/bulbasaur-pokemon-4k-71.jpg'); height: 300px;">
+            <div class="mask" style="background-color: rgba(0,0,0,0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3 my-2">Bulbasaur</h1>
+                        <h4 class="mb-3">The World's First Pokemon</h4>
+                        <a class="btn btn-outline-light btn-lg my-3" href="https://en.wikipedia.org/wiki/Bulbasaur" target="_blank">Check Out More Info Here!</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 m-3">
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="data:image/jpeg;base64,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" alt="bulbasaur">
+                    <h3 class="card-header">Bulbasaur</h3>
+                    <p class="card-text my-2">Bulbasaur is the first stage of this Pokemon's evolution. Bulbasaur debuted in Pokemon Red and Blue as a Starter Pokemon. Known as the Seed Pokemon, Bulbasaur can survive for days solely on sunlight.
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="https://pokestop.io/img/pokemon/ivysaur-256x256.png" alt="ivysaur">
+                    <h3 class="card-header">Ivysaur</h3>
+                    <p class="card-text my-2">Bulbasaur evolves into Ivysaur at level 16. Ivysaur is a dual type Grass/Poison type Pokemon. Its blossom on its back grows larger in the sunlight. As the blossom grows, Ivysaur loses the ability to stand on its hind legs.
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+            <div class="col">
+                <article class="card shadow-lg p-5">
+                    <img src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc2MjYwODQ5NTk2NTcyODYy/pokemon-venusaur-nicknames.png" alt="venusaur">
+                    <h3 class="card-header">Venusaur</h3>
+                    <p class="card-text my-2">Venusaur is a combination of the words Venus and the Greek saur (lizard). It can Mega Involve into Mega Venasaur using the Venusaurite. This Pokemon is rarely found in the wild, but has been known to inhabit grasslands. 
+                    </p>
+                    <section class="btn-group my-2">
+                        <button type="button" class="btn-success">More Info</button>
+                    </section>
+                </article>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
